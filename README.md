@@ -31,3 +31,20 @@ Fill out the content of the `using_until` method to `puts` the desired phrase, "
 **Hint: If you get stuck an infinite loop when you run your tests or your code, you can abort the test run or code by pressing `CONTROL+C` on your keyboard.**
 
 <p data-visibility='hidden'>KWK-L1 The `while` and `until` Constructs</p>
+
+def using_until
+       levitation_force = 6
+       until levitation_force == 10
+          puts "Wingardium Leviosa"
+          levitation_force += 1
+      end
+end
+
+def using_while
+  levitation_force = 6
+
+  while levitation_force < 10
+    puts "Wingardium Leviosa"
+    levitation_force += 1
+  end
+end
